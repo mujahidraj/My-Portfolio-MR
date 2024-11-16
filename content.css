@@ -1,0 +1,117 @@
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.content img{
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+    
+    
+
+}
+.content a{
+    padding-top: 5px;
+    
+    padding-left: 10px;
+    
+
+}
+
+.content-1 ,.content-2,.content-3,.content-4,.content-5,.content-6{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    transition: box-shadow 0.3s;
+}
+
+.content-1:hover ,.content-2:hover,.content-3:hover,.content-4:hover,.content-5:hover,.content-6:hover{
+    
+    box-shadow: 0px 0px 20px rgb(83, 83, 84);
+   
+}
+
+.content-name-1,.content-name-2,.content-name-3,.content-name-4,.content-name-5,.content-name-6{
+    font-family: "Raleway",sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.content-description-1,.content-description-2,.content-description-3,.content-description-4,.content-description-5,.content-description-6{
+
+    font-family: "Raleway",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.content-category-1,.content-category-2,.content-category-3,.content-category-4,.content-category-5,.content-category-6{
+    font-family: "Raleway",sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.page-count{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+    justify-content: center;
+
+}
+
+.page-count a{
+    text-decoration: none;
+}
+
+.next,.page-1,.page-2,.page-3,.page-4,.previous{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 50%;
+    margin-left: 3px;
+    margin-right: 3px;
+    transition: background-color 0.4s;
+    font-family: "Raleway",sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    
+    
+}
+
+.next:hover,.page-1:hover,.page-2:hover,.page-3:hover,.page-4:hover,.previous:hover{
+  
+    
+    background-color: rgba(0, 0, 0, 0.436);
+    color: white;
+    border-radius: 50%;
+    
+    
+}
+
+
+
+
+
+
